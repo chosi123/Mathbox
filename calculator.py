@@ -15,3 +15,8 @@ def getMedian(a, b):
 
 def getRemainder(a, b):
     return a//b
+
+def get_abs(num):
+    if num < 0:
+        return -num
+    return num
